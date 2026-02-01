@@ -1,4 +1,7 @@
+'use client';
+import React from 'react';  
 import { Eye, Download, Briefcase, GraduationCap, Award, Code } from 'lucide-react';
+import { use } from 'react';
 
 const Resume = () => {
   const experience = [

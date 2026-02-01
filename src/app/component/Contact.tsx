@@ -1,3 +1,5 @@
+'use client';
+
 import { Mail, Linkedin, Github, ExternalLink } from 'lucide-react';
 
 const Contact = () => {

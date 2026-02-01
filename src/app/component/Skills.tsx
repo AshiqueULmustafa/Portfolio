@@ -1,3 +1,5 @@
+'use client';
+
 import { Code, Layers, Database, Cloud, Wrench, Smartphone } from 'lucide-react';
 
 const Skills = () => {

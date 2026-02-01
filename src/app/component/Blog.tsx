@@ -1,3 +1,5 @@
+'use client';
+
 import { ExternalLink, Calendar, Clock } from 'lucide-react';
 
 const Blog = () => {

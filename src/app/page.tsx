@@ -3,14 +3,13 @@ import Blog from "./component/Blog";
 import Contact from "./component/Contact";  
 import Home from "./component/Home";
 import Navigation from "./component/Navigation";
-import Projects from "./component/Project";
+import Projects from "./component/Project"; // Matched to Project.tsx
 import Resume from "./component/Resume";
 import Skills from "./component/Skills";  
 
-
-function App() {
+export default function App() {
   return (
-    <div className="bg-gray-900">
+    <main className="bg-gray-900">
       <Navigation />
       <Home />
       <About />
@@ -19,8 +18,6 @@ function App() {
       <Blog />
       <Resume />
       <Contact />
-    </div>
+    </main>
   );
 }
-
-export default App;

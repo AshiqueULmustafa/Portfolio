@@ -1,3 +1,5 @@
+'use client';
+
 import { GraduationCap, Trophy, Server } from 'lucide-react';
 
 const About = () => {
